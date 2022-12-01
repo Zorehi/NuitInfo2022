@@ -27,6 +27,8 @@ body span {
     overflow: hidden;
     width: 500px;
     height: 300px;
+    border-radius: 40px;
+    background-image: url("../image/unknown.png");
 }
 
 .quiz {
@@ -37,23 +39,17 @@ body span {
     align-items: center;
     justify-content: space-evenly;
     padding: 20px;
-    background-image: url("../image/unknown.png");
-    border-radius: 40px;
     position: absolute;
     transition-property: transform;
     transition-timing-function: cubic-bezier(.08,.52,.52,1);
     transition-duration: 200ms;
 }
 
-.quiz[data-status="active"] {
-    visibility: visible;
-}
 
-
-.quiz[data-status="after"] {
+.quiz[data-current="after"] {
     transform: translateX(100%);
 }
-.quiz[data-status="before"] {
+.quiz[data-current="before"] {
     transform: translateX(-100%);
 }
 

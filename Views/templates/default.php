@@ -10,6 +10,7 @@
     <title>Nuit de l'Info 2022</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <script src="assets/js/index.js" defer></script>
 </head>
 
 <body class="system-fonts--body segoe">
