@@ -11,7 +11,7 @@ class Database extends PDO {
 
     // Propriétés de la base de données
     private const DBHOST = "localhost";
-    private const DBNAME = "projetbdd";
+    private const DBNAME = "";
     private const DBUSER = "root";
     private const DBPASS = "";
 

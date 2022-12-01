@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="fr" id="projetbdd" class=<?php echo isset($_COOKIE["color-scheme"]) ? $_COOKIE["color-scheme"] : "__pj-light-mode"; ?>>
+<html lang="fr">
 
 <head>
     <base href="/">
+    <link rel="shortcut icon" href="assets/image/favicon.ico">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
