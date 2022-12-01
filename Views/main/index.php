@@ -265,9 +265,18 @@
         var code = event.code;
         index = -1;
         currentIndex = -1;
-        // Cherche quelle est la case sélectionnée pour l'instant
-        const quiz_answer_list = document.getElementsByClassName('quiz-answer');
+        currentQuiz = null;
 
+        // Trouve la question active
+        const quizList = document.getElementsByClassName("quiz");
+        for(i = 0; i < quizList.length; i++) {
+            if(quizList[i].dataset.current == "active"){
+                currentQuiz = quizList[i];
+            }
+        }
+
+        // Recupere les réponses de la question active
+        const quiz_answer_list = currentQuiz.getElementsByClassName('quiz-answer');
         for (i = 0; i < quiz_answer_list.length; i++) {
             if(quiz_answer_list[i].dataset.current == "answer"){
                 currentIndex = i;
