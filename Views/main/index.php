@@ -1,12 +1,13 @@
+<img class="fleche-1" src="assets/image/flechejaune.png" alt="">
 <div class="quiz-list">
-    <div class="quiz" data-current="active" data-index="0">
+    <div class="quiz" data-current="active" data-index="0" data-response="4">
         <div class="quiz-question">
             <span>Première question : Quand à été fondé l’association Sida Info Service ??</span>
         </div>
         <div class="quiz-container-reponse">
             <div class="quiz-answer">
                 <span>1980</span>
-            </div>
+            </div>rreponse+2+dataindex
             <div class="quiz-answer">
                 <span>1990</span>
             </div>
@@ -18,7 +19,7 @@
             </div>
         </div>
     </div>
-    <div class="quiz" data-current="after" data-index="1">
+    <div class="quiz" data-current="after" data-index="1" data-response="7">
         <div class="quiz-question">
             <span>2eme question :  Selon l’OMS, combien de personnes vivent avec le VIH en fin 2021 ?</span>
         </div>
