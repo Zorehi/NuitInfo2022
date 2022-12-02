@@ -1,5 +1,6 @@
+<img class="fleche-1" src="assets/image/flechejaune.png" alt="">
 <div class="quiz-list">
-    <div class="quiz" data-current="active" data-index="0">
+    <div class="quiz" data-current="active" data-index="0" data-response="4">
         <div class="quiz-question">
             <span>Première question : Quand à été fondé l’association Sida Info Service ??</span>
         </div>
@@ -18,7 +19,7 @@
             </div>
         </div>
     </div>
-    <div class="quiz" data-current="after" data-index="1">
+    <div class="quiz" data-current="after" data-index="1" data-response="7">
         <div class="quiz-question">
             <span>2eme question :  Selon l’OMS, combien de personnes vivent avec le VIH en fin 2021 ?</span>
         </div>
@@ -37,7 +38,7 @@
             </div>
         </div>
     </div>
-    <div class="quiz" data-current="after" data-index="2">
+    <div class="quiz" data-current="after" data-index="2" data-response="5">
         <div class="quiz-question">
             <span>3eme question :  Selon l’OMS combien de décès sont liés au VIH en 2021?</span>
         </div>
@@ -56,7 +57,7 @@
             </div>
         </div>
     </div>
-    <div class="quiz" data-current="after" data-index="3">
+    <div class="quiz" data-current="after" data-index="3" data-response="9">
         <div class="quiz-question">
             <span>4eme question : Combien de personnes ne savent pas qu’elles avaient le VIH en 2021</span>
         </div>
@@ -75,7 +76,7 @@
             </div>
         </div>
     </div>
-    <div class="quiz" data-current="after" data-index="4">
+    <div class="quiz" data-current="after" data-index="4" data-response="7">
         <div class="quiz-question">
             <span>5eme question : Quelle cellule du système immunitaire est affectée par le VIH ?</span>
         </div>
@@ -95,7 +96,7 @@
         </div>
     </div>
 
-    <div class="quiz" data-current="after" data-index="5">
+    <div class="quiz" data-current="after" data-index="5" data-response="10">
         <div class="quiz-question">
             <span>Quelle est la proportion d’adultes vivant avec le VIH parmi toutes les personnes malades ?</span>
         </div>
@@ -114,8 +115,8 @@
             </div>
         </div>
     </div>
-    <div class="quiz" data-current="after" data-index="6">
-        <div class="quiz-question">
+    <div class="quiz" data-current="after" data-index="6" data-response="9">
+        <div class="quiz-question"> 
             <span>7eme question : Combien de personnes ont un accès au traitement antirétroviral</span>
         </div>
         <div class="quiz-container-reponse">
@@ -133,7 +134,7 @@
             </div>
         </div>
     </div>
-    <div class="quiz" data-current="after" data-index="7">
+    <div class="quiz" data-current="after" data-index="7" data-response="13">
         <div class="quiz-question">
             <span>8eme question : S’injecter de la drogue multiplie par combien le risque de contracter le VIH?</span>
         </div>
@@ -152,7 +153,7 @@
             </div>
         </div>
     </div>
-    <div class="quiz" data-current="after" data-index="8">
+    <div class="quiz" data-current="after" data-index="8" data-response="13">
         <div class="quiz-question">
             <span>9eme question : Combien de femmes chaque semaine sont infectées par le VIH dans le monde ?</span>
         </div>
@@ -171,7 +172,7 @@
             </div>
         </div>
     </div>
-    <div class="quiz" data-current="after" data-index="9">
+    <div class="quiz" data-current="after" data-index="9" data-response="13">
         <div class="quiz-question">
             <span>10eme question : Quel était le budget (en milliards de dollars) disponible en 2021 pour la lutte contre le SIDA ? </span>
         </div>
@@ -190,7 +191,7 @@
             </div>
         </div>
     </div>
-    <div class="quiz" data-current="after" data-index="10">
+    <div class="quiz" data-current="after" data-index="10" data-response="13">
         <div class="quiz-question">
             <span>404eme question : L’utilisation d’un préservatif permet de réduire de 100 % les IST ? (s’il n’est pas déchiré)</span>
         </div>
@@ -203,7 +204,7 @@
             </div>
         </div>
     </div>
-    <div class="quiz" data-current="after" data-index="11">
+    <div class="quiz" data-current="after" data-index="11" data-response="14">
         <div class="quiz-question">
             <span>11eme question : En France, quel pourcentage de personnes atteintes du VIH découvrent leur séropositivité à un stade avancé de l’infection :</span>
         </div>
@@ -222,7 +223,7 @@
             </div>
         </div>
     </div>
-    <div class="quiz" data-current="after" data-index="12"> 
+    <div class="quiz" data-current="after" data-index="12" data-response="18"> 
         <div class="quiz-question">
             <span>12eme question: Quelle est la réponse à la question 8 ? </span>
         </div>
@@ -241,7 +242,7 @@
             </div>
         </div>
     </div>
-    <div class="quiz" data-current="after" data-index="13">
+    <div class="quiz" data-current="after" data-index="13" data-response="16">
         <div class="quiz-question">
             <span>13eme question: Vrai ou faux le dépistage du VIH est-il remboursé à 100% par l’assurance maladie ? </span>
         </div>
