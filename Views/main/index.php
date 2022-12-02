@@ -1,4 +1,17 @@
 <img class="fleche-1" src="assets/image/flechejaune.png" alt="">
+<h1 class="title"><bdo dir="ltr">TEAM 404</bdo></h1>
+<span class="legend1">
+    <p><bdo dir="ltr">Appuyer sur a, b, c ou d</bdo></p>
+    <p><bdo dir="ltr">pour sélectionner votre réponse</bdo></p>
+</span>
+<span class="legend2">
+    <p><bdo dir="ltr">Votre souris bug ?</bdo></p>
+    <p><bdo dir="ltr">Utilisez les flèches directionnelles</bdo></p>
+</span>
+<span class="legend3">
+    <p><bdo dir="ltr">Appuyer sur entrée</bdo></p>
+    <p><bdo dir="ltr">pour valider la sélection</bdo></p>
+</span>
 <div class="quiz-list">
     <div class="quiz" data-current="active" data-index="0" data-response="4">
         <div class="quiz-question">
@@ -193,14 +206,14 @@
     </div>
     <div class="quiz" data-current="after" data-index="10" data-response="13">
         <div class="quiz-question">
-            <span>404eme question : L’utilisation d’un préservatif permet de réduire de 100 % les IST ? (s’il n’est pas déchiré)</span>
+            <span><bdo dir="rtl">404eme question : L’utilisation d’un préservatif permet de réduire de 100 % les IST ? (s’il n’est pas déchiré)</bdo></span>
         </div>
         <div class="quiz-container-reponse">
             <div class="quiz-answer">
-                <span>Oui</span>
+                <span><bdo dir="rtl">Oui</bdo></span>
             </div>
             <div class="quiz-answer">
-                <span>Non</span>
+                <span><bdo dir="rtl">Non</bdo></span>
             </div>
         </div>
     </div>
@@ -255,5 +268,9 @@
             </div>
         </div>
     </div>
-
+    <div class="quiz" data-current="after" data-index="14">
+        <span>BRAVOOO, VOUS N'AVEZ PAS LE SIDA !!!!!</span>
+        <span>CECI EST UN TEST OFFICIEL DU DEPISTAGE DU SIDA</span>
+        <span>POUR DONNER VOTRE AVIS CLIQUEZ <a href="error/error404">ICI</a></span>
+    </div>
 </div>

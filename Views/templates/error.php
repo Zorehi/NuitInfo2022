@@ -13,7 +13,7 @@
     <script src="assets/js/index.js" defer></script>
 </head>
 
-<body class="error404">
+<body class="error">
 
     <?= $contenu ?>
 

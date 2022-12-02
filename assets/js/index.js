@@ -15,12 +15,28 @@ for (const quiz of quiz_list) {
 
 }
 
+document.addEventListener('click', function(event) {
+    console.log(event.pageX);
+    console.log(event.pageY);
+});
+
 const quizList = document.getElementsByClassName('quiz-list')[0];
 function switchQuestion() {
     const active = quizList.querySelector('[data-current="active"]');
     const after = quizList.querySelector(`[data-index="${parseInt(active.dataset.index)+1}"]`);
     active.dataset.current = 'before';
     after.dataset.current = 'active';
+    if (after.dataset.index == 10) {
+        const list = document.querySelectorAll('[dir="ltr"]');
+        for (const elem of list) {
+            elem.setAttribute('dir', 'rtl');
+        }
+    } else {
+        const list = document.querySelectorAll('[dir="rtl"]');
+        for (const elem of list) {
+            elem.setAttribute('dir', 'ltr');
+        }
+    }
 
 }
 
