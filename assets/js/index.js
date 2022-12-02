@@ -25,8 +25,9 @@ function switchQuestion() {
 }
 
 function goFirstQuestion(){
-    for(i = 0; i < quizList.length; i++){
-        quiz = quizList[i];
+    listAllQuiz = quizList.getElementsByClassName("quiz");
+    for(i = 0; i < listAllQuiz.length; i++){
+        quiz = listAllQuiz[i];
         quiz.dataset.current = 'after';
 
         quizResponseList = quiz.getElementsByClassName('quiz-answer');
@@ -35,16 +36,9 @@ function goFirstQuestion(){
         }
 
     }
-    quizList[0].dataset.current = 'active';
+    listAllQuiz[0].dataset.current = 'active';
 
 }
-
-// document.addEventListener('keypress', function() {
-//     if (event.key == "Enter") {
-
-//         switchQuestion();
-//     }
-// });
 
 // Add event listener on keypress
 
@@ -53,12 +47,12 @@ document.addEventListener('keydown', (event) => {
     var code = event.code;
     index = -1;
     indexCurrentResponse = -1;
-    quizList = document.getElementsByClassName("quiz");
+    // quizList = document.getElementsByClassName("quiz");
     activeQuiz = quizList.querySelector('[data-current="active"]');
     indexCurrentQuiz = activeQuiz.dataset.index;
 
     // Recupere les réponses de la question active
-    const quiz_answer_list = activeQuiz.getElementsByClassName('quiz-answer');
+    quiz_answer_list = activeQuiz.getElementsByClassName('quiz-answer');
     for (i = 0; i < quiz_answer_list.length; i++) {
         if(quiz_answer_list[i].dataset.current == "answer"){
             indexCurrentResponse = i;
@@ -121,9 +115,7 @@ document.addEventListener('keydown', (event) => {
     }
 
     if(name == "Enter"){
-        console.log(indexCurrentResponse+1, " = ", quiz_answer_list[indexCurrentResponse] - indexCurrentQuiz - 2);
-        console.log(indexCurrentQuiz+1);
-        if((indexCurrentResponse+1) == parseInt(quiz_answer_list[indexCurrentResponse].dataset.response) - parseInt(quiz_answer_list[indexCurrentResponse].dataset.index) - 2){
+        if((indexCurrentResponse+1) == parseInt(activeQuiz.dataset.response) - indexCurrentQuiz - 2){
             switchQuestion();
         }
         else{
